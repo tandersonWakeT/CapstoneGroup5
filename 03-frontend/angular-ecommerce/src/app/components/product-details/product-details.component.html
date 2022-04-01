@@ -1,0 +1,19 @@
+<div class="detail-section">
+  <div class="container-fluid">
+    <br> <!-- Added in Group5ProductUpdate branch -->
+    <!-- product?.imageUrl will also solve the race condition-->
+    <img src="{{ product.imageUrl }}" class="detail-img">
+
+    <h3>{{ product.name }}</h3>
+    <div class="price" style="color:black;">{{ product.unitPrice | currency:'USD' }}</div>
+    <button (click)="addToCart()" class="btn btn-success btn-sm">Add to Cart</button>
+
+    <hr>
+    <h4>Description</h4>
+    <p>{{ product.description }}</p>
+
+    <a routerLink="/products" class="btn btn-success btn-md">Back to Product List</a>
+
+  </div>
+</div>
+

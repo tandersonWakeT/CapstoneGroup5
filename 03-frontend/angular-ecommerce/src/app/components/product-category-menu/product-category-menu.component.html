@@ -1,0 +1,15 @@
+<div class="js-scrollbar1">
+  <nav class="navbar-sidebar">
+    <h3 style="text-align: center; font-weight:bold">Categories</h3>
+    <ul class="list-unstyled navbar-list">
+      <li style="text-align: center;" *ngFor="let tempProductCategory of productCategories">
+        <a routerLink="/category/{{ tempProductCategory.id }}/{{ tempProductCategory.categoryName }}" routerLinkActive="active-link">
+          {{ tempProductCategory.categoryName }}
+        </a>
+        <a routerLink="/category/{{ tempProductCategory.id }}/{{ tempProductCategory.categoryName }}" routerLinkActive="active-link">
+          <img src="{{ tempProductCategory.thumbnailUrl }}" class="img-responsive">
+      </a>
+      </li>
+    </ul>
+  </nav>
+</div>
