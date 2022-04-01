@@ -1,0 +1,17 @@
+package com.hcl.mapper;
+
+import java.util.Set;
+
+import org.mapstruct.Mapper;
+
+import com.hcl.ecommerce.dto.PurchaseDto;
+import com.hcl.ecommerce.dto.PurchaseResponse;
+
+@Mapper(componentModel = "spring")
+public interface PurchaseMapper {
+	
+	PurchaseDto toPurchaseDto(Purchase purchase);
+	
+	PurchaseResponse toPurchaseResponse(PurchaseResponse purchaseResponse);
+
+}

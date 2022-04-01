@@ -1,0 +1,13 @@
+package com.hcl.mapper;
+
+import org.mapstruct.Mapper;
+
+import com.hcl.ecommerce.dto.Purchase;
+import com.hcl.ecommerce.entity.Customer;
+
+@Mapper(componentModel = "spring")
+public interface PurchaseMapper {
+	
+	Purchase toPurchase(Customer customer);
+
+}

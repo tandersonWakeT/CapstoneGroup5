@@ -1,0 +1,5 @@
+package com.hcl.ecommerce;
+
+public interface PurchaseMapper {
+
+}

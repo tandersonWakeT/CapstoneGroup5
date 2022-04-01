@@ -1,0 +1,20 @@
+package com.hcl.mapper;
+
+import java.util.Set;
+
+import org.mapstruct.Mapper;
+
+import com.hcl.ecommerce.dto.Purchase;
+import com.hcl.ecommerce.dto.PurchaseResponse;
+
+@Mapper(componentModel = "spring")
+public interface PurchaseMapper {
+	
+//	Purchase toPurchase(Customer customer, Address shippingAddress, Address billingAddress, 
+//			Order order, Set<OrderItem> orderItems); 
+	Purchase toPurchase(Purchase purchase);
+	
+	//PurchaseResponse toPurchaseResponse(String orderTrackingNumber);
+	PurchaseResponse toPurchaseResponse(PurchaseResponse purchaseResponse);
+
+}

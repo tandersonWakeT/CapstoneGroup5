@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\brick\Documents\Programming\CapstoneGroup5-Group5Live\02-backend\spring-boot-ecommerce\.metadata\.plugins\org.eclipse.jdt.core
+976821765.index
+796882380.index
+32429830.index
+1104001131.index
+3015974419.index
+1865797976.index

@@ -1,0 +1,5 @@
+package com.hcl.mapper;
+
+public interface PurchaseMapper {
+
+}
