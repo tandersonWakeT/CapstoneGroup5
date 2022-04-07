@@ -1,0 +1,167 @@
+2022-03-29-main--INFO -com.hcl.ecommerce.SpringBootEcommerceApplication:Starting Application
+  2022-03-29-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:Disabling Put, Post, Delete and Patch
+  2022-03-29-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Product class
+  2022-03-29-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.ProductCategory class
+  2022-03-29-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Country class
+  2022-03-29-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.State class
+  2022-03-29-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Order class
+  2022-03-29-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:The helper method exposeIds is called
+  2022-03-29-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Configuring safety of the backend with https
+  2022-03-29-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Set up support for CORS and 401 response page
+  2022-03-29-https-jsse-nio-8443-exec-10--INFO -com.hcl.ecommerce.controller.CheckoutController:paymentInfo.amount: 23996
+  2022-03-29-https-jsse-nio-8443-exec-10--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating payment intent
+  2022-03-29-https-jsse-nio-8443-exec-10--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Payment Params: {amount=23996, receipt_email=demo@demo.com, payment_method_types=[card], description=Computer Accessories purchase, currency=USD}
+  2022-03-29-https-jsse-nio-8443-exec-1--INFO -com.hcl.ecommerce.controller.CheckoutController:Purchase: Purchase(customer=com.hcl.ecommerce.entity.Customer@68a3b4a6, shippingAddress=com.hcl.ecommerce.entity.Address@5f3f1f6f, billingAddress=com.hcl.ecommerce.entity.Address@3868c8ad, order=com.hcl.ecommerce.entity.Order@c08ad7d, orderItems=[com.hcl.ecommerce.entity.OrderItem@1f451dc0, com.hcl.ecommerce.entity.OrderItem@7f438495, com.hcl.ecommerce.entity.OrderItem@7212b459, com.hcl.ecommerce.entity.OrderItem@ba7ee6b])
+  2022-03-29-https-jsse-nio-8443-exec-1--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Got order of purchase
+  2022-03-29-https-jsse-nio-8443-exec-1--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating random OrderID
+  2022-03-29-https-jsse-nio-8443-exec-1--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order tracking number. Order Tracking number: com.hcl.ecommerce.entity.Order@c08ad7d
+  2022-03-29-https-jsse-nio-8443-exec-1--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Billing Address: com.hcl.ecommerce.entity.Address@3868c8ad
+  2022-03-29-https-jsse-nio-8443-exec-1--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Shipping Address: com.hcl.ecommerce.entity.Address@5f3f1f6f
+  2022-03-30-main--INFO -com.hcl.ecommerce.SpringBootEcommerceApplication:Starting Application
+  2022-03-30-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:Disabling Put, Post, Delete and Patch
+  2022-03-30-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Product class
+  2022-03-30-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.ProductCategory class
+  2022-03-30-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Country class
+  2022-03-30-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.State class
+  2022-03-30-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Order class
+  2022-03-30-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:The helper method exposeIds is called
+  2022-03-30-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Configuring safety of the backend with https
+  2022-03-30-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Set up support for CORS and 401 response page
+  2022-04-05-main--INFO -com.hcl.ecommerce.SpringBootEcommerceApplication:Starting Application
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:Disabling Put, Post, Delete and Patch
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Product class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.ProductCategory class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Country class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.State class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Order class
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:The helper method exposeIds is called
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Configuring safety of the backend with https
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Set up support for CORS and 401 response page
+  2022-04-05-https-jsse-nio-8443-exec-8--INFO -com.hcl.ecommerce.controller.CheckoutController:paymentInfo.amount: 50092
+  2022-04-05-https-jsse-nio-8443-exec-8--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating payment intent
+  2022-04-05-https-jsse-nio-8443-exec-8--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Payment Params: {amount=50092, receipt_email=ameria@america.com, payment_method_types=[card], description=Computer Accessories purchase, currency=USD}
+  2022-04-05-https-jsse-nio-8443-exec-10--INFO -com.hcl.ecommerce.controller.CheckoutController:Purchase: Purchase(customer=com.hcl.ecommerce.entity.Customer@539f08f9, shippingAddress=com.hcl.ecommerce.entity.Address@54b2d749, billingAddress=com.hcl.ecommerce.entity.Address@330f093e, order=com.hcl.ecommerce.entity.Order@36200663, orderItems=[com.hcl.ecommerce.entity.OrderItem@c6d76ef, com.hcl.ecommerce.entity.OrderItem@37765b9f, com.hcl.ecommerce.entity.OrderItem@3fd70fac])
+  2022-04-05-https-jsse-nio-8443-exec-10--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Got order of purchase
+  2022-04-05-https-jsse-nio-8443-exec-10--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating random OrderID
+  2022-04-05-https-jsse-nio-8443-exec-10--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order tracking number. Order Tracking number: com.hcl.ecommerce.entity.Order@36200663
+  2022-04-05-main--INFO -com.hcl.ecommerce.SpringBootEcommerceApplication:Starting Application
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:Disabling Put, Post, Delete and Patch
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Product class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.ProductCategory class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Country class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.State class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Order class
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:The helper method exposeIds is called
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Configuring safety of the backend with https
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Set up support for CORS and 401 response page
+  2022-04-05-https-jsse-nio-8443-exec-5--INFO -com.hcl.ecommerce.controller.CheckoutController:paymentInfo.amount: 50092
+  2022-04-05-https-jsse-nio-8443-exec-5--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating payment intent
+  2022-04-05-https-jsse-nio-8443-exec-5--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Payment Params: {amount=50092, receipt_email=ameria@america.com, payment_method_types=[card], description=Computer Accessories purchase, currency=USD}
+  2022-04-05-https-jsse-nio-8443-exec-6--INFO -com.hcl.ecommerce.controller.CheckoutController:Purchase: Purchase(customer=com.hcl.ecommerce.entity.Customer@5bbb8575, shippingAddress=com.hcl.ecommerce.entity.Address@42d93fc0, billingAddress=com.hcl.ecommerce.entity.Address@43323cbe, order=com.hcl.ecommerce.entity.Order@7bd8c0ee, orderItems=[com.hcl.ecommerce.entity.OrderItem@3604144, com.hcl.ecommerce.entity.OrderItem@de6b680, com.hcl.ecommerce.entity.OrderItem@652f9a98])
+  2022-04-05-https-jsse-nio-8443-exec-6--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Got order of purchase
+  2022-04-05-https-jsse-nio-8443-exec-6--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating random OrderID
+  2022-04-05-https-jsse-nio-8443-exec-6--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order tracking number. Order Tracking number: com.hcl.ecommerce.entity.Order@7bd8c0ee
+  2022-04-05-https-jsse-nio-8443-exec-6--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order item of id: null it has an quantity of 3
+  2022-04-05-https-jsse-nio-8443-exec-6--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order item of id: null it has an quantity of 3
+  2022-04-05-https-jsse-nio-8443-exec-6--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order item of id: null it has an quantity of 2
+  2022-04-05-https-jsse-nio-8443-exec-6--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Billing Address: com.hcl.ecommerce.entity.Address@43323cbe
+  2022-04-05-https-jsse-nio-8443-exec-6--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Shipping Address: com.hcl.ecommerce.entity.Address@42d93fc0
+  2022-04-05-https-jsse-nio-8443-exec-7--INFO -com.hcl.ecommerce.controller.CheckoutController:paymentInfo.amount: 12597
+  2022-04-05-https-jsse-nio-8443-exec-7--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating payment intent
+  2022-04-05-https-jsse-nio-8443-exec-7--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Payment Params: {amount=12597, receipt_email=ads@asd.com, payment_method_types=[card], description=Computer Accessories purchase, currency=USD}
+  2022-04-05-https-jsse-nio-8443-exec-8--INFO -com.hcl.ecommerce.controller.CheckoutController:Purchase: Purchase(customer=com.hcl.ecommerce.entity.Customer@235018e1, shippingAddress=com.hcl.ecommerce.entity.Address@665282ef, billingAddress=com.hcl.ecommerce.entity.Address@c0c514f, order=com.hcl.ecommerce.entity.Order@57fe4132, orderItems=[com.hcl.ecommerce.entity.OrderItem@29a87391, com.hcl.ecommerce.entity.OrderItem@276f88d4])
+  2022-04-05-https-jsse-nio-8443-exec-8--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Got order of purchase
+  2022-04-05-https-jsse-nio-8443-exec-8--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating random OrderID
+  2022-04-05-https-jsse-nio-8443-exec-8--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order tracking number. Order Tracking number: com.hcl.ecommerce.entity.Order@57fe4132
+  2022-04-05-https-jsse-nio-8443-exec-8--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order item of id: null it has an quantity of 1
+  2022-04-05-https-jsse-nio-8443-exec-8--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order item of id: null it has an quantity of 2
+  2022-04-05-https-jsse-nio-8443-exec-8--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Billing Address: com.hcl.ecommerce.entity.Address@c0c514f
+  2022-04-05-https-jsse-nio-8443-exec-8--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Shipping Address: com.hcl.ecommerce.entity.Address@665282ef
+  2022-04-05-main--INFO -com.hcl.ecommerce.SpringBootEcommerceApplication:Starting Application
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:Disabling Put, Post, Delete and Patch
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Product class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.ProductCategory class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Country class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.State class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Order class
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:The helper method exposeIds is called
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Configuring safety of the backend with https
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Set up support for CORS and 401 response page
+  2022-04-05-https-jsse-nio-8443-exec-10--INFO -com.hcl.ecommerce.controller.CheckoutController:paymentInfo.amount: 49893
+  2022-04-05-https-jsse-nio-8443-exec-10--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating payment intent
+  2022-04-05-https-jsse-nio-8443-exec-10--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Payment Params: {amount=49893, receipt_email=p@s.com, payment_method_types=[card], description=Computer Accessories purchase, currency=USD}
+  2022-04-05-https-jsse-nio-8443-exec-1--INFO -com.hcl.ecommerce.controller.CheckoutController:Purchase: Purchase(customer=com.hcl.ecommerce.entity.Customer@50767873, shippingAddress=com.hcl.ecommerce.entity.Address@301a300c, billingAddress=com.hcl.ecommerce.entity.Address@52ad20e9, order=com.hcl.ecommerce.entity.Order@2d4ef8cb, orderItems=[com.hcl.ecommerce.entity.OrderItem@13ad8639, com.hcl.ecommerce.entity.OrderItem@32fe3cdb, com.hcl.ecommerce.entity.OrderItem@2db9a6af, com.hcl.ecommerce.entity.OrderItem@58ceb25])
+  2022-04-05-https-jsse-nio-8443-exec-1--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Got order of purchase
+  2022-04-05-https-jsse-nio-8443-exec-1--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating random OrderID
+  2022-04-05-https-jsse-nio-8443-exec-1--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order tracking number. Order Tracking number: com.hcl.ecommerce.entity.Order@2d4ef8cb
+  2022-04-05-https-jsse-nio-8443-exec-1--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order item of id: 32 it has an quantity of 4
+  2022-04-05-https-jsse-nio-8443-exec-1--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order item of id: 1 it has an quantity of 1
+  2022-04-05-https-jsse-nio-8443-exec-1--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order item of id: 14 it has an quantity of 2
+  2022-04-05-https-jsse-nio-8443-exec-1--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order item of id: 24 it has an quantity of 3
+  2022-04-05-https-jsse-nio-8443-exec-1--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Billing Address: com.hcl.ecommerce.entity.Address@52ad20e9
+  2022-04-05-https-jsse-nio-8443-exec-1--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Shipping Address: com.hcl.ecommerce.entity.Address@301a300c
+  2022-04-05-main--INFO -com.hcl.ecommerce.SpringBootEcommerceApplication:Starting Application
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:Disabling Put, Post, Delete and Patch
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Product class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.ProductCategory class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Country class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.State class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Order class
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:The helper method exposeIds is called
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Configuring safety of the backend with https
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Set up support for CORS and 401 response page
+  2022-04-05-https-jsse-nio-8443-exec-7--INFO -com.hcl.ecommerce.controller.CheckoutController:paymentInfo.amount: 10499
+  2022-04-05-https-jsse-nio-8443-exec-7--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating payment intent
+  2022-04-05-https-jsse-nio-8443-exec-7--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Payment Params: {amount=10499, receipt_email=ab@ab.com, payment_method_types=[card], description=Computer Accessories purchase, currency=USD}
+  2022-04-05-https-jsse-nio-8443-exec-9--INFO -com.hcl.ecommerce.controller.CheckoutController:Purchase: Purchase(customer=com.hcl.ecommerce.entity.Customer@7eb72c33, shippingAddress=com.hcl.ecommerce.entity.Address@75ad65d6, billingAddress=com.hcl.ecommerce.entity.Address@5af68b25, order=com.hcl.ecommerce.entity.Order@37b3efcb, orderItems=[com.hcl.ecommerce.entity.OrderItem@72d3ef67])
+  2022-04-05-https-jsse-nio-8443-exec-9--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Got order of purchase
+  2022-04-05-https-jsse-nio-8443-exec-9--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating random OrderID
+  2022-04-05-https-jsse-nio-8443-exec-9--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order tracking number. Order Tracking number: com.hcl.ecommerce.entity.Order@37b3efcb
+  2022-04-05-https-jsse-nio-8443-exec-9--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Optional[Product(id=1, category=com.hcl.ecommerce.entity.ProductCategory@5818a169, sku=KBD-TECH-0001, name=RGB Gaming Mechanical Keyboard, description=The keyboard that is meant for gaming and has RGB lights for decorative purposes. Also has mechanical keys to help with gaming, unitPrice=104.99, imageUrl=assets/images/products/keyboards/keyboard-1000.jpg, active=true, unitsInStock=100, dateCreated=2022-03-25 07:24:52.0, lastUpdated=null)]
+  2022-04-05-https-jsse-nio-8443-exec-9--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Billing Address: com.hcl.ecommerce.entity.Address@5af68b25
+  2022-04-05-https-jsse-nio-8443-exec-9--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Shipping Address: com.hcl.ecommerce.entity.Address@75ad65d6
+  2022-04-05-main--INFO -com.hcl.ecommerce.SpringBootEcommerceApplication:Starting Application
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:Disabling Put, Post, Delete and Patch
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Product class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.ProductCategory class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Country class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.State class
+  2022-04-05-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Order class
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:The helper method exposeIds is called
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Configuring safety of the backend with https
+  2022-04-05-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Set up support for CORS and 401 response page
+  2022-04-05-https-jsse-nio-8443-exec-2--INFO -com.hcl.ecommerce.controller.CheckoutController:paymentInfo.amount: 47290
+  2022-04-05-https-jsse-nio-8443-exec-2--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating payment intent
+  2022-04-05-https-jsse-nio-8443-exec-2--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Payment Params: {amount=47290, receipt_email=pranavsharma@hcl.com, payment_method_types=[card], description=Computer Accessories purchase, currency=USD}
+  2022-04-05-https-jsse-nio-8443-exec-4--INFO -com.hcl.ecommerce.controller.CheckoutController:Purchase: Purchase(customer=com.hcl.ecommerce.entity.Customer@2f0e05bb, shippingAddress=com.hcl.ecommerce.entity.Address@459ef89a, billingAddress=com.hcl.ecommerce.entity.Address@fb9eeaf, order=com.hcl.ecommerce.entity.Order@4edfe1a5, orderItems=[com.hcl.ecommerce.entity.OrderItem@7cb6cb65, com.hcl.ecommerce.entity.OrderItem@2ee89242, com.hcl.ecommerce.entity.OrderItem@d6989d4, com.hcl.ecommerce.entity.OrderItem@e85980a])
+  2022-04-05-https-jsse-nio-8443-exec-4--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Got order of purchase
+  2022-04-05-https-jsse-nio-8443-exec-4--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating random OrderID
+  2022-04-05-https-jsse-nio-8443-exec-4--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order tracking number. Order Tracking number: com.hcl.ecommerce.entity.Order@4edfe1a5
+  2022-04-05-https-jsse-nio-8443-exec-4--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:97
+  2022-04-05-https-jsse-nio-8443-exec-4--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:98
+  2022-04-05-https-jsse-nio-8443-exec-4--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:36
+  2022-04-05-https-jsse-nio-8443-exec-4--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:99
+  2022-04-05-https-jsse-nio-8443-exec-4--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Billing Address: com.hcl.ecommerce.entity.Address@fb9eeaf
+  2022-04-05-https-jsse-nio-8443-exec-4--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Shipping Address: com.hcl.ecommerce.entity.Address@459ef89a
+  2022-04-07-main--INFO -com.hcl.ecommerce.SpringBootEcommerceApplication:Starting Application
+  2022-04-07-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:Disabling Put, Post, Delete and Patch
+  2022-04-07-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Product class
+  2022-04-07-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.ProductCategory class
+  2022-04-07-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Country class
+  2022-04-07-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.State class
+  2022-04-07-main--DEBUG-com.hcl.ecommerce.config.MyDataRestConfig:The helper method disableHttpMethods is called for the class com.hcl.ecommerce.entity.Order class
+  2022-04-07-main--INFO -com.hcl.ecommerce.config.MyDataRestConfig:The helper method exposeIds is called
+  2022-04-07-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Configuring safety of the backend with https
+  2022-04-07-main--INFO -com.hcl.ecommerce.config.SecurityConfiguration:Set up support for CORS and 401 response page
+  2022-04-07-https-jsse-nio-8443-exec-5--INFO -com.hcl.ecommerce.controller.CheckoutController:paymentInfo.amount: 10797
+  2022-04-07-https-jsse-nio-8443-exec-5--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating payment intent
+  2022-04-07-https-jsse-nio-8443-exec-5--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Payment Params: {amount=10797, receipt_email=asdf@adf.ca, payment_method_types=[card], description=Computer Accessories purchase, currency=USD}
+  2022-04-07-https-jsse-nio-8443-exec-8--INFO -com.hcl.ecommerce.controller.CheckoutController:Purchase: Purchase(customer=com.hcl.ecommerce.entity.Customer@4ddc9845, shippingAddress=com.hcl.ecommerce.entity.Address@5fa4fd1f, billingAddress=com.hcl.ecommerce.entity.Address@2d8c2617, order=com.hcl.ecommerce.entity.Order@2f391468, orderItems=[com.hcl.ecommerce.entity.OrderItem@1b8d2ae6, com.hcl.ecommerce.entity.OrderItem@9b170ce])
+  2022-04-07-https-jsse-nio-8443-exec-8--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Got order of purchase
+  2022-04-07-https-jsse-nio-8443-exec-8--INFO -com.hcl.ecommerce.service.CheckoutServiceImpl:Creating random OrderID
+  2022-04-07-https-jsse-nio-8443-exec-8--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order tracking number. Order Tracking number: com.hcl.ecommerce.entity.Order@2f391468
+  2022-04-07-https-jsse-nio-8443-exec-8--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:99
+  2022-04-07-https-jsse-nio-8443-exec-8--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:99
+  2022-04-07-https-jsse-nio-8443-exec-8--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Billing Address: com.hcl.ecommerce.entity.Address@2d8c2617
+  2022-04-07-https-jsse-nio-8443-exec-8--DEBUG-com.hcl.ecommerce.service.CheckoutServiceImpl:Got order Shipping Address: com.hcl.ecommerce.entity.Address@5fa4fd1f
+  

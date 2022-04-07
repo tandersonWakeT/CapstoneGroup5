@@ -22,10 +22,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('angular-ecommerce');
   });
 
-  it('should render title', () => {
+  it('should render footer', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-ecommerce app is running!');
+    expect(compiled.querySelector('#about')?.textContent).toContain('About Us');
   });
 });

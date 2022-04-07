@@ -7,6 +7,7 @@ import java.util.Set;
 import javax.persistence.EntityManager;
 import javax.persistence.metamodel.EntityType;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
@@ -35,12 +36,14 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
 		entityManager = theEntityManager;
 	}
 	
+	static Logger log = Logger.getLogger(MyDataRestConfig.class);
+	
 	@Override
 	public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
 		
 		HttpMethod[] theUnsupportedActions = {HttpMethod.PUT, HttpMethod.POST,
 											  HttpMethod.DELETE, HttpMethod.PATCH};
-		
+		log.info("Disabling Put, Post, Delete and Patch");
 		// disable HTTP methods for Product: PUT, POST and DELETE
 		disableHttpMethods(Product.class, config, theUnsupportedActions);
 		
@@ -62,6 +65,7 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
 	}
 
 	private void disableHttpMethods(Class theClass, RepositoryRestConfiguration config, HttpMethod[] theUnsupportedActions) {
+		log.debug("The helper method disableHttpMethods is called for the " + theClass + " class");
 		config.getExposureConfiguration()
 			  .forDomainType(theClass)
 			  .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
@@ -70,11 +74,11 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
 	
 	// call an internal helper method
 	private void exposeIds(RepositoryRestConfiguration config) {
+		log.info("The helper method exposeIds is called");
 		
 		//expose entity ids
 		
 		// - get a list of all entity classes from the entity manager
-		
 		Set<EntityType<?>> entities = entityManager.getMetamodel().getEntities();
 		
 		// - create an array of the entity types
@@ -82,7 +86,6 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
 		
 		// - get the entity types for the entities
 		for (EntityType tempEntityType : entities) {
-			
 			entityClasses.add(tempEntityType.getJavaType());
 		}
 		

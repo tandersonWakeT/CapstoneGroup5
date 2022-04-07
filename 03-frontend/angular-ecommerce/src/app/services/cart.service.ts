@@ -27,7 +27,7 @@ export class CartService {
       // compute totals based on the data read from storage
       this.computeCartTotals();
     }
-   }
+  }
 
   addToCart(theCartItem: CartItem) {
 
@@ -44,7 +44,7 @@ export class CartService {
       alreadyExistsInCart = (existingCartItem != undefined);
     }
 
-      // increment quantity if item already exists
+    // increment quantity if item already exists
     if (alreadyExistsInCart) {
 
       existingCartItem.quantity++;
@@ -55,8 +55,8 @@ export class CartService {
       this.cartItems.push(theCartItem);
     }
 
-      // compute cart total price and total quantity
-      this.computeCartTotals();
+    // compute cart total price and total quantity
+    this.computeCartTotals();
 
   }
 

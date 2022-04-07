@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { Router } from '@angular/router';
 
 import { SearchComponent } from './search.component';
 
@@ -6,9 +7,14 @@ describe('SearchComponent', () => {
   let component: SearchComponent;
   let fixture: ComponentFixture<SearchComponent>;
 
+  let searchRouterSpy = jasmine.createSpyObj(Router, ['navigateByUrl']);
+
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SearchComponent ]
+      declarations: [ SearchComponent ],
+      providers: [
+        {provide: Router, useValue: searchRouterSpy}
+      ]
     })
     .compileComponents();
   });
@@ -20,6 +26,6 @@ describe('SearchComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    expect(component).toBeDefined();
   });
 });

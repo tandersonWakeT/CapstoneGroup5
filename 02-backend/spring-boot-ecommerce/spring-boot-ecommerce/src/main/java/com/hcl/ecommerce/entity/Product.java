@@ -16,11 +16,17 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import io.swagger.annotations.ApiModel;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name="product")
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @ApiModel(description = "Properties of the Product")
 public class Product {
 	

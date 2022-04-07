@@ -5,8 +5,17 @@
     <img src="{{ product.imageUrl }}" class="detail-img">
 
     <h3>{{ product.name }}</h3>
+
+    <br>
+    <!-- Limited amount of item left -->
+    <div *ngIf="product.unitsInStock <= 70" class="alert alert-warning col-md-2" role="alert">
+      Only {{product.unitsInStock}} left in stock
+    </div>
+
     <div class="price" style="color:black;">{{ product.unitPrice | currency:'USD' }}</div>
     <button (click)="addToCart()" class="btn btn-success btn-sm">Add to Cart</button>
+
+   
 
     <hr>
     <h4>Description</h4>

@@ -1,6 +1,6 @@
 package com.hcl.ecommerce.controller;
 
-import java.util.logging.Logger;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,7 +22,7 @@ import com.stripe.model.PaymentIntent;
 @RequestMapping("/api/checkout")
 public class CheckoutController {
 	
-	private Logger logger = Logger.getLogger(getClass().getName());
+	static Logger log = Logger.getLogger(CheckoutController.class);
 	
 	private CheckoutService checkoutService;
 	
@@ -35,6 +35,8 @@ public class CheckoutController {
 	@PostMapping("/purchase")
 	public PurchaseResponse placeOrder(@RequestBody Purchase purchase) {
 		
+		log.info("Purchase: " + purchase);
+		
 		PurchaseResponse purchaseResponse = checkoutService.placeOrder(purchase);
 		
 		return purchaseResponse;
@@ -43,7 +45,7 @@ public class CheckoutController {
 	@PostMapping("/payment-intent")
 	public ResponseEntity<String> createPaymentIntent(@RequestBody PaymentInfo paymentInfo) throws StripeException {
 		
-		logger.info("paymentInfo.amount: " + paymentInfo.getAmount());
+		log.info("paymentInfo.amount: " + paymentInfo.getAmount());
 		
 		PaymentIntent paymentIntent = checkoutService.createPaymentIntent(paymentInfo);
 		

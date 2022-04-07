@@ -14,7 +14,6 @@ export class ProductDetailsComponent implements OnInit {
 
   // race condition for product needs to be addressed, cant be null at first
   product: Product = new Product();
-
   constructor(private productService: ProductService,
               private cartService: CartService,
               private route: ActivatedRoute) { }
